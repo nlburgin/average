@@ -1,0 +1,12 @@
+[package]
+name = "average"
+version = "0.1.0"
+authors = ["nlburgin <neil@neilburgin.com>"]
+edition = "2018"
+
+[profile.release]
+panic = 'abort'
+
+[dependencies]
+fnv = "1.0.6"
+ordered-float = "1.0.2"
