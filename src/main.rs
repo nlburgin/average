@@ -96,14 +96,7 @@ fn main() {
     },
     _ => panic!("Severe internal error :("),
   });
-  
-  
-  //eprintln!("error: no valid input");
-  //::std::process::exit(1);
 }
-
-//fn mean(numbers){
-//}
 
 fn print_help(){
   eprintln!(HELP!());
